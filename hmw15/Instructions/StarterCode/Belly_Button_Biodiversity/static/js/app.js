@@ -1,6 +1,7 @@
 function buildMetadata(sample) {
 
   // @TODO: Complete the following function that builds the metadata panel
+  d3.select("#sample-metadata")
 
   // Use `d3.json` to fetch the metadata for a sample
     // Use d3 to select the panel with id of `#sample-metadata`
